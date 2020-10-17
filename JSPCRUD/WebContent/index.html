@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="Save.jsp" method="post">
+		<h1 align="center">ADD STudent details</h1>
+		<table border="1" align="center">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="sname"></td>
+			</tr>
+			<tr>
+				<td>contact</td>
+				<td><input type="text" name="scontact"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="semail"></td>
+			</tr>
+			<tr>			
+				<td>City</td>	
+					<td>
+					<select name="scity">
+						<option>baroda</option>
+						<option>surat</option>
+						<option>ahemdabad</option>
+						<option>bharuch</option>
+						<option>bhavnagar</option>
+						</select>
+					</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" ><input type="submit" value ="Register"></td>
+			</tr>
+		</table>
+	</form>
+		<a href="view.jsp" align="center">	View all student Data </a>
+</body>
+</html>
